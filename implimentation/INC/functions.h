@@ -37,4 +37,5 @@ int len;
 char key;
 int life;
 
+
 #endif

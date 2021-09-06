@@ -9,6 +9,7 @@
  * 
  */
 
+///function declerations
 #ifndef __SNAKEFUNCTIONS_H__
 #define __SNAKEFUNCTIONS_H__
 
