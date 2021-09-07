@@ -12,7 +12,7 @@ It isn’t the world’s greatest game, but it does give you an idea of what you
 |HLR05	                |   |Creating a records of players|
 
 # Low Level Requirements:
-Low Level Requirements	Description
+|Low Level Requirements|	|Description
 HLR01_LLR01	Create borders 
 HLR02_LLR02	Create coordinates for snake body
 HLR03_LLR03	Create multiple coordinates
