@@ -4,3 +4,5 @@
 <a href="https://frontend.code-inspector.com/public/user/github/Rameshbommani">
    <img src="https://code-inspector.com/public/badge/user/github/Rameshbommani?style=light" alt="code inspector badge" />
 </a>
+https://www.code-inspector.com/project/27756/score/svg
+https://www.code-inspector.com/project/27756/status/svg
