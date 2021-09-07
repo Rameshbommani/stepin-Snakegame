@@ -9,8 +9,8 @@
  * 
  */
 
-#ifndef __SNAKEFUNCTIONS_H__
-#define __SNAKEFUNCTIONS_H__
+#ifndef __FUNCTIONS_H__
+#define __FUNCTIONS_H__
 
 void record();
 void load();

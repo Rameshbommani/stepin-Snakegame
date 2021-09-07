@@ -11,32 +11,18 @@
 
 
 ///function declerations
-#ifndef __SNAKEFUNCTIONS_H__
-#define __SNAKEFUNCTIONS_H__
+#ifndef __HEADERS_H__
+#define __HEADERS_H__
 
-void record();
-void load();
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <conio.h>
+#include<time.h>
+#include<ctype.h>
+#include <time.h>
+#include <windows.h>
+#include <process.h>
 
-void Delay(long double);
-void Move();
-void Food();
-int Score();
-void Print();
-void gotoxy(int x, int y);
-void GotoXY(int x,int y);
-void Bend();
-void Boarder();
-void Down();
-void Left();
-void Up();
-void Right();
-void ExitGame();
-int Scoreonly();
-
-int length;
-int bend_no;
-int len;
-char key;
-int life;
 
 #endif
