@@ -10,7 +10,7 @@ It isn’t the world’s greatest game, but it does give you an idea of what you
 |HLR03	                |   |Creating a target(Food)      |
 |HLR04	                |   |Moving the snake             |
 |HLR05	                |   |Creating a records of players|
-
+ 
 # Low Level Requirements:
 |Low Level Requirements|	|Description
 HLR01_LLR01	Create borders 
