@@ -25,10 +25,18 @@ int main()
 
     //char key;
 
+    /**
+     * @brief Construct a new Print object
+     * 
+     */
     Print();
 
     system("cls");
 
+    /**
+     * @brief Construct a new load object
+     * 
+     */
     load();
 
     length=5;
@@ -39,8 +47,15 @@ int main()
 
     head.direction=RIGHT;
 
+    /**
+     * @brief Construct a new Boarder object
+     * 
+     */
     Boarder();
-
+    /**
+     * @brief Construct a new Food object
+     * 
+     */
     Food(); ///to generate food coordinates initially
 
    life=3; ///number of extra lives
@@ -52,13 +67,20 @@ int main()
     return 0;
 
 }
-
+/**
+ * @brief move function is used to move the snake from the different cooerdinates 
+ * 
+ */
 void Move()
 {
+    
     int a,i;
 
     do{
-
+        /**
+         * @brief Construct a new Food object
+         * 
+         */
         Food();
         fflush(stdin);
 
@@ -77,26 +99,47 @@ void Move()
             break;
 
         }
-
+        /**
+         * @brief Construct a new Delay object
+         * 
+         */
         Delay(length);
-
+        /**
+         * @brief Construct a new Boarder object
+         * 
+         */
         Boarder();
 
         if(head.direction==RIGHT)
-
+            /**
+             * @brief Construct a new Right object
+             * 
+             */
             Right();
+            
 
         else if(head.direction==LEFT)
-
+            /**
+             * @brief Construct a new Left object
+             * 
+             */
             Left();
+            
 
         else if(head.direction==DOWN)
-
+    /**
+     * @brief Construct a new Down object
+     * 
+     */
             Down();
-
+            
         else if(head.direction==UP)
 
             Up();
+            /**
+             * @brief Construct a new Exit Game object
+             * 
+             */
 
         ExitGame();
 
@@ -220,6 +263,10 @@ void Down()
 }
 void Delay(long double k)
 {
+    /**
+     * @brief Construct a new Score object
+     * 
+     */
     Score();
     long double i;
     for(i=0;i<=(10000000);i++);
