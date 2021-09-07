@@ -386,6 +386,7 @@ void Bend()
        }
    }
 }
+
 void Boarder()
 {
    system("cls");
