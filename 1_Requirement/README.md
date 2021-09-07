@@ -4,7 +4,7 @@
 It is a simple Snake game which has been around since the earliest days of home computing and has re-emerged in recent years on mobile phones.
 It isn’t the world’s greatest game, but it does give you an idea of what you can achieve with a relatively simple c program and perhaps the basis by which to extend the priniples and create more interesting games of your own.
 # High Level Requirements:
-# High Level Requirements	Description
+ High Level Requirements	Description
 HLR01	Creating a board
 HLR02	Creating a snake
 HLR03	Creating a target(Food)
